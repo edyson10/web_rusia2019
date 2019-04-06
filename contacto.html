@@ -1,0 +1,35 @@
+<section>
+    <div class="container">
+        <br><br>
+        <div class="container contacto" style="margin-left: 5em; margin-right: 30em;">
+            <fieldset>
+                <div align="center">
+                    <legend class="letra" style="font-size: 2em;">Formulario</legend>
+                </div>
+                <form role="form" id="Formulario" method="POST">
+                    <div class="form-group">
+                        <label class="control-label" for="Nombre">Nombre</label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre" required autofocus />
+                    </div>  
+                    <div class="form-group">
+                        <label class="control-label" for="Empresa">Asunto</label>
+                        <input type="text" class="form-control"  placeholder="Asunto del Mensaje" required />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Correo">Email</label>
+                        <input type="email" class="form-control" id="Correo" name="Correo" placeholder="Introduzca su correo electr&oacute;nico" required />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Mensaje">Mensaje</label>
+                        <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
+                    </div>
+                    <div class="form-group">                
+                        <input type="submit" class="btn btn-primary" value="Enviar">
+                        <input type="reset" class="btn btn-default" value="Limpiar">                
+                    </div>
+                    <div id="respuesta" style="display: none;"></div>
+                </form>
+            </fieldset>
+        </div> 
+    </div>
+</section>

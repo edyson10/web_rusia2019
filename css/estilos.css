@@ -1,0 +1,72 @@
+
+.footer{
+	position: initial;
+	width: 100%;
+	height: 60px;
+	background-color: #4e4c4c;
+}
+
+.letra-footer{
+	color: white;
+}
+
+.navbar-header img{
+	height: 30px;
+}
+
+.img{
+	width: 150%;
+	height: 80%;
+}
+
+.imgseleccion{
+	width: 100%;
+}
+
+.par{
+	margin: 2em;
+}
+
+.hamburguer{
+	display: none;
+}
+
+footer{
+	text-align: center;
+	padding: 1em;
+	height: 50px;
+}
+
+
+/* === HTML5 validation styles === */
+.contacto input:required, .contacto textarea:required {
+ 	background: #fff url(images/red_asterisk.png) no-repeat 98% center;
+ }
+
+ .contacto input:required:valid, .contacto textarea:required:valid {
+ 	background: #fff url(images/valid.png) no-repeat 98% center;
+ 	box-shadow: 0 0 5px #5cd053;
+ 	border-color: #28921f;
+ }
+
+ .contacto input:focus:invalid, .contactotextarea:focus:invalid {
+ 	background: #fff url(images/invalid.png) no-repeat 98% center;
+ 	box-shadow: 0 0 5px #d45252;
+ 	border-color: #b03535;
+}
+
+/**Responsive**/
+@media screen and (max-width:800px) {
+	.hamburguer{
+		margin:1.5%;
+		display: block;
+		float: right;
+	}
+	.hamburguer span{
+		font-size: 25px;
+	}
+}
+
+.letra{
+	font-family: 'Lobster', cursive;
+}
